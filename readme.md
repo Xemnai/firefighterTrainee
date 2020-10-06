@@ -24,8 +24,7 @@ Double cliquer sur le projet
 * Visual Studio Code
 
 ## Versions
-Listez les versions ici 
-_exemple :_
+
 **Dernière version stable :** 0.3
 **Dernière version :** aucune
 

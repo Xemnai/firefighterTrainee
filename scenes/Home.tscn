@@ -1,0 +1,163 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://scripts/Home.cs" type="Script" id=1]
+[ext_resource path="res://ressources/linearGradient.PNG" type="Texture" id=2]
+[ext_resource path="res://ressources/policy.tres" type="DynamicFont" id=3]
+[ext_resource path="res://ressources/Black__X1.png" type="Texture" id=4]
+
+[node name="Home" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [ -9.8822 ]
+}
+_addTraineePopupMenuPath = NodePath("AddTraineePopupMenu")
+_firstNameLineEditPath = NodePath("AddTraineePopupMenu/FirstNameLineEdit")
+_lastNameLineEditPath = NodePath("AddTraineePopupMenu/NameLineEdit")
+_traineeNameLabelPath = NodePath("TraineeNameLabel")
+_traineeNameLabelPath2 = NodePath("TraineeNameLabel2")
+_traineeNameLabelPath3 = NodePath("TraineeNameLabel3")
+_traineeNameLabelPath4 = NodePath("TraineeNameLabel4")
+_traineeNameLabelPath5 = NodePath("TraineeNameLabel5")
+_traineeNameLabelPath6 = NodePath("TraineeNameLabel6")
+_traineeNameLabelPath7 = NodePath("TraineeNameLabel7")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="Background" type="Sprite" parent="ParallaxBackground"]
+position = Vector2( 802.278, 453.041 )
+scale = Vector2( 0.87266, 0.94662 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="AddTraineeButton" type="Button" parent="."]
+margin_left = 38.9514
+margin_top = 73.7151
+margin_right = 487.951
+margin_bottom = 299.715
+text = "Ajouter un stagiaire"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="GenerateTeamsButton" type="Button" parent="."]
+margin_left = 1129.37
+margin_top = 81.9481
+margin_right = 1571.37
+margin_bottom = 311.948
+text = "Generer les equipes"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="AddTraineePopupMenu" type="PopupMenu" parent="."]
+margin_left = 138.0
+margin_top = 66.0
+margin_right = 1421.0
+margin_bottom = 715.0
+
+[node name="FirstNameLineEdit" type="LineEdit" parent="AddTraineePopupMenu"]
+margin_left = 745.056
+margin_top = 98.119
+margin_right = 1133.06
+margin_bottom = 325.119
+placeholder_text = "Prenom"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NameLineEdit" type="LineEdit" parent="AddTraineePopupMenu"]
+margin_left = 139.647
+margin_top = 114.616
+margin_right = 555.647
+margin_bottom = 343.616
+placeholder_text = "Nom"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ValidateButton" type="Button" parent="AddTraineePopupMenu"]
+margin_left = 998.014
+margin_top = 512.78
+margin_right = 1222.01
+margin_bottom = 604.78
+text = "Valider"
+
+[node name="TraineeNameLabel" type="Label" parent="."]
+margin_left = 4.67355
+margin_top = 415.307
+margin_right = 1453.67
+margin_bottom = 466.307
+custom_fonts/font = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TraineeNameLabel2" type="Label" parent="."]
+margin_left = 2.94287
+margin_top = 493.793
+margin_right = 1451.94
+margin_bottom = 544.793
+custom_fonts/font = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TraineeNameLabel3" type="Label" parent="."]
+margin_left = 4.36176
+margin_top = 568.751
+margin_right = 1453.36
+margin_bottom = 619.751
+custom_fonts/font = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TraineeNameLabel4" type="Label" parent="."]
+margin_left = 2.24283
+margin_top = 634.155
+margin_right = 1451.24
+margin_bottom = 685.155
+custom_fonts/font = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TraineeNameLabel5" type="Label" parent="."]
+margin_left = 2.12723
+margin_top = 702.053
+margin_right = 1451.13
+margin_bottom = 753.053
+custom_fonts/font = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TraineeNameLabel6" type="Label" parent="."]
+margin_left = 2.24283
+margin_top = 764.744
+margin_right = 1451.24
+margin_bottom = 815.744
+custom_fonts/font = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TraineeNameLabel7" type="Label" parent="."]
+margin_left = 1.8833
+margin_top = 823.655
+margin_right = 1450.88
+margin_bottom = 874.655
+custom_fonts/font = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Xemnai Logo" type="Sprite" parent="."]
+position = Vector2( 786.493, 89.1101 )
+texture = ExtResource( 4 )
+[connection signal="pressed" from="AddTraineeButton" to="." method="_on_AddTraineeButton_pressed"]
+[connection signal="pressed" from="AddTraineePopupMenu/ValidateButton" to="." method="_on_ValidateButton_pressed"]

@@ -1,0 +1,11 @@
+X:\Dev Perso\Pompier\Soft\.mono\temp\bin\Debug\FirefighterTrainee.dll
+X:\Dev Perso\Pompier\Soft\.mono\temp\bin\Debug\FirefighterTrainee.pdb
+X:\Dev Perso\Pompier\Soft\.mono\temp\obj\Debug\FirefighterTrainee.csprojAssemblyReference.cache
+X:\Dev Perso\Pompier\Soft\.mono\temp\obj\Debug\FirefighterTrainee.csproj.CoreCompileInputs.cache
+X:\Dev Perso\Pompier\Soft\.mono\temp\obj\Debug\FirefighterTrainee.dll
+X:\Dev Perso\Pompier\Soft\.mono\temp\obj\Debug\FirefighterTrainee.pdb
+X:\Pro\Dev Logiciel\Pompier\Soft\.mono\temp\bin\Debug\FirefighterTrainee.dll
+X:\Pro\Dev Logiciel\Pompier\Soft\.mono\temp\bin\Debug\FirefighterTrainee.pdb
+X:\Pro\Dev Logiciel\Pompier\Soft\.mono\temp\obj\Debug\FirefighterTrainee.csprojAssemblyReference.cache
+X:\Pro\Dev Logiciel\Pompier\Soft\.mono\temp\obj\Debug\FirefighterTrainee.dll
+X:\Pro\Dev Logiciel\Pompier\Soft\.mono\temp\obj\Debug\FirefighterTrainee.pdb

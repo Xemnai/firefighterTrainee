@@ -3,11 +3,11 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)](http://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/powered-by-energy-drinks.svg)](http://forthebadge.com)
 
-Une petite description du projet
+Ce projet est réalisé dans le but d'aider les organisateurs de stages pour devenir pompier volontaire, sur la commune de PAU.
 
 ## Pour commencer
 
-Ce projet est réaliser dans le but d'aidée les organisateur de stage pour devenir pompier volontaire, sur la comune de PAU.
+
 
 ### Pré-requis
 
@@ -21,7 +21,7 @@ Suivre l'<a href="https://docs.godotengine.org/fr/stable/getting_started/scripti
 
 ## Fabriqué avec
 
-* Godot
+* Godot mono
 * C#
 * Visual Studio Code
 
@@ -30,9 +30,14 @@ Suivre l'<a href="https://docs.godotengine.org/fr/stable/getting_started/scripti
 **Dernière version stable :** 0.3
 **Dernière version :** aucune
 
+##
+
+**Evolution possible :** 
+- Modifier l'apparence des boutons
+- Exporter le projet sur mobile et / ou Web
 
 ## Auteurs
-Listez le(s) auteur(s) du projet ici !
+
 * **Lucas Phelipot** _alias_ Xemnai
 * **Steven Wozniak** _alias_ Ice-Edorral
 

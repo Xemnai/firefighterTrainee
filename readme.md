@@ -39,7 +39,7 @@ Suivre l'<a href="https://docs.godotengine.org/fr/stable/getting_started/scripti
 ## Auteurs
 
 * **Lucas Phelipot** _alias_ Xemnai
-* **Steven Wozniak** _alias_ Ice-Edorral
+* **Abdelilah El ouardi** _alias_ abdelEstLà
 
 ## License
 

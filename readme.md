@@ -16,7 +16,9 @@ Ce projet est réaliser dans le but d'aidée les organisateur de stage pour deve
 - Visual Studio Code
 ## Démarrage
 
-Suivre l'[instalation de Godot] (https://docs.godotengine.org/fr/stable/getting_started/scripting/c_sharp/c_sharp_basics.html "link to google") 
+Suivre l'<a href="https://docs.godotengine.org/fr/stable/getting_started/scripting/c_sharp/c_sharp_basics.html">instalation de Godot</a>
+Rendez-vous sur le Site du Zéropour tout apprendre à partir de Zéro !
+
 
 ## Fabriqué avec
 

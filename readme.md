@@ -7,15 +7,16 @@ Une petite description du projet
 
 ## Pour commencer
 
-Ce projet est réaliser dans le but d'aidée les organisateur de stage pour devenir pompier volontaire.
+Ce projet est réaliser dans le but d'aidée les organisateur de stage pour devenir pompier volontaire, sur la comune de PAU.
 
 ### Pré-requis
 
-Aucun
-
+- Godot mono
+- .net Core
+- Visual Studio Code
 ## Démarrage
 
-Double cliquer sur le projet
+Suivre l'[instalation de Godot]("https://docs.godotengine.org/fr/stable/getting_started/scripting/c_sharp/c_sharp_basics.html"link to google") 
 
 ## Fabriqué avec
 
